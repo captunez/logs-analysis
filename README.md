@@ -18,7 +18,7 @@ psql -d news -f newsdata.sql
 ```
 Before loading the data, you should make sure you have installed PostgreSQL and create a database named news. To test it, you can run `\psql news` in your command line.
 
-4. Create views. There are four views created: top_path, top_articles, count_404, count_200. ** You must create them to run logs_analysis.py correctly.
+4. Create views. There are four views created: top_path, top_articles, count_404, count_200. **You must create them to run logs_analysis.py correctly**.
 
 ```
 create view top_path as select substring(path,10) as name,count(*) 
