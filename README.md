@@ -47,6 +47,7 @@ group by date_trunc('day',time), status;"
 ```
 
 5. Run the python file
+
 `python3 logs_analysis.py`
 
 ## EXPECTED OUTPUT
@@ -69,3 +70,5 @@ Days with 404 requests greater than 1%
 
  July 17, 2016 -- 2.26 % errors
  ```
+ 
+ You can also check by opening output.txt.
