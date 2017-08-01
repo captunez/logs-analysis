@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #      --------------   DESCRIPTION   --------------
 # logs_analysis.py is to analyze logs of a news website by
 # querying a PostgreSQL database named news made of three
